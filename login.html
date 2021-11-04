@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Lost Items</title>
+        <title>Login</title>
         <link rel="stylesheet" href="css/header.css">
         <script src='js/authenticate.js'></script>
     </head>
@@ -14,8 +14,15 @@
                 </li>
             </ul>
         </div>
-        <div id=site-content>
-            login page :)
+        <div id="site-content">
+            <form id="login-form" action='#' method="POST" onsumbit="return false;">
+                Name:<input name="name" type="text"><br>
+                Email:<input name="email" type="email"><br>
+                <input type="submit" id="loginsubmit">
+            </form>
+            <div id="output">
+
+            </div>
         </div>
     </body>
 </html>

@@ -3,10 +3,10 @@ var outputDiv = document.getElementById("output")
 
 function getInfo() {
     console.log('in getinfo');
-    name = loginForm.name.value;
+    username = loginForm.name.value;
     email = loginForm.email.value;
 
-    outputDiv.innerHTML = "<h1>Name is " + name + " and email is " + email + ".</h1>"
+    outputDiv.innerHTML = "<h1>Name is " + username + " and email is " + email + ".</h1>"
 }
 
 
